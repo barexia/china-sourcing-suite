@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="50%" style="stop-color:#1a1a1a"/>
+      <stop offset="100%" style="stop-color:#0d0d0d"/>
+    </linearGradient>
+    <linearGradient id="glow1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(220,38,38,0.12)"/>
+      <stop offset="100%" style="stop-color:transparent"/>
+    </linearGradient>
+    <linearGradient id="glow2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgba(220,38,38,0.08)"/>
+      <stop offset="100%" style="stop-color:transparent"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:transparent"/>
+      <stop offset="50%" style="stop-color:#dc2626"/>
+      <stop offset="100%" style="stop-color:transparent"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="url(#bg)"/>
+
+  <!-- Glow circles -->
+  <circle cx="1080" cy="100" r="350" fill="url(#glow1)"/>
+  <circle cx="200" cy="620" r="300" fill="url(#glow2)"/>
+
+  <!-- Accent line top -->
+  <rect x="0" y="0" width="1280" height="4" fill="url(#accent)"/>
+
+  <!-- Badge -->
+  <rect x="490" y="140" rx="100" ry="100" width="300" height="36" fill="rgba(220,38,38,0.15)" stroke="rgba(220,38,38,0.3)" stroke-width="1"/>
+  <circle cx="510" cy="158" r="4" fill="#dc2626"/>
+  <text x="530" y="164" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#fca5a5" letter-spacing="1">COMPLETE BUNDLE · 3 GUIDES</text>
+
+  <!-- Title -->
+  <text x="640" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="66" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="-1">China Sourcing</text>
+  <text x="640" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="66" font-weight="900" fill="#dc2626" text-anchor="middle" letter-spacing="-1">Suite</text>
+
+  <!-- Subtitle -->
+  <text x="640" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#a1a1aa" text-anchor="middle">From 1688 and Alibaba to China's offline wholesale markets —</text>
+  <text x="640" y="448" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#a1a1aa" text-anchor="middle">everything you need to source like a pro</text>
+
+  <!-- Stats row -->
+  <g transform="translate(640, 520)">
+    <!-- 138 Pages -->
+    <text x="-180" y="0" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="800" fill="#ffffff" text-anchor="middle">138</text>
+    <text x="-180" y="22" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#71717a" text-anchor="middle" letter-spacing="1">PAGES</text>
+
+    <line x1="-90" y1="-10" x2="-90" y2="25" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+    <!-- 3 Guides -->
+    <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+    <text x="0" y="22" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#71717a" text-anchor="middle" letter-spacing="1">COMPLETE GUIDES</text>
+
+    <line x1="90" y1="-10" x2="90" y2="25" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+    <!-- 27 Categories -->
+    <text x="180" y="0" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="800" fill="#ffffff" text-anchor="middle">27</text>
+    <text x="180" y="22" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#71717a" text-anchor="middle" letter-spacing="1">PRODUCT CATEGORIES</text>
+  </g>
+
+  <!-- Bottom bar -->
+  <line x1="60" y1="640" x2="1220" y2="640" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <text x="60" y="676" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#52525b">From 1688 to <tspan fill="#a1a1aa">Factory Floors</tspan></text>
+
+  <text x="1220" y="676" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="end">$19 USD</text>
+</svg>

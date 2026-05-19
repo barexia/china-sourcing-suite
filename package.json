@@ -1,0 +1,36 @@
+{
+  "name": "sourcing-guide",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "generate-html": "node scripts/generate-html.js",
+    "generate-pdf": "node scripts/generate-pdf.js"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.5.0",
+    "gray-matter": "^4.0.3",
+    "marked": "^18.0.3",
+    "md-to-pdf": "^5.2.5",
+    "next": "16.2.4",
+    "pdf-lib": "^1.17.1",
+    "playwright": "^1.59.1",
+    "postcss": "^8.5.12",
+    "puppeteer-core": "^24.42.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5",
+    "vercel": "^53.1.1"
+  }
+}
